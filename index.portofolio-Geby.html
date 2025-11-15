@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="id">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Profesional</title>
+  <script src="/_sdk/element_sdk.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+        body {
+            box-sizing: border-box;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f766e 0%, #d97706 100%);
+        }
+        
+        .section-divider {
+            height: 2px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            margin: 2rem 0;
+        }
+        
+        .skill-tag {
+            transition: all 0.3s ease;
+        }
+        
+        .skill-tag:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(15, 118, 110, 0.3);
+        }
+        
+        .experience-item {
+            border-left: 3px solid #0f766e;
+            transition: all 0.3s ease;
+        }
+        
+        .experience-item:hover {
+            border-left-color: #d97706;
+            background-color: #f8fafc;
+        }
+        
+        .contact-card {
+            transition: all 0.3s ease;
+        }
+        
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media print {
+            .gradient-bg {
+                background: #0f766e !important;
+            }
+        }
+    </style>
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="bg-gray-50 font-sans"><!-- Header Section -->
+  <header class="gradient-bg text-white py-16">
+   <div class="max-w-4xl mx-auto px-6 text-center">
+    <div class="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg">
+     <svg class="w-16 h-16 text-gray-600" fill="currentColor" viewbox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+     </svg>
+    </div>
+    <h1 id="nama-lengkap" class="text-4xl font-bold mb-2">Ahmad Jibril Alfirdauz</h1>
+    <p id="posisi-profesi" class="text-xl opacity-90">Posisi/Profesi Anda</p>
+   </div>
+  </header>
+  <main class="max-w-4xl mx-auto px-6 py-8"><!-- Profil Singkat -->
+   <section class="mb-12">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+     <svg class="w-8 h-8 mr-3 text-blue-600" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+     </svg> Profil Singkat</h2>
+    <div class="bg-white rounded-lg shadow-md p-6">
+     <p id="profil-paragraf-1" class="text-gray-700 leading-relaxed mb-4">Saya adalah seorang profesional berpengalaman dengan latar belakang yang kuat dalam bidang teknologi informasi. Dengan pengalaman lebih dari 5 tahun, saya telah mengembangkan keahlian dalam berbagai aspek pengembangan software dan manajemen proyek.</p>
+     <p id="profil-paragraf-2" class="text-gray-700 leading-relaxed">Saya memiliki passion yang tinggi dalam menciptakan solusi inovatif dan efisien. Kemampuan analitis yang kuat dan dedikasi terhadap kualitas kerja membuat saya mampu memberikan kontribusi maksimal dalam setiap proyek yang saya tangani.</p>
+    </div>
+   </section>
+   <div class="section-divider"></div><!-- Keahlian Utama -->
+   <section class="mb-12">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+     <svg class="w-8 h-8 mr-3 text-blue-600" fill="currentColor" viewbox="0 0 24 24"><path d="M9 11H7v6h2v-6zm4 0h-2v6h2v-6zm4 0h-2v6h2v-6zm2.5-9H19v2h-1.5v17h-11V4H5V2h1.5C7.33 2 8 2.67 8 3.5S7.33 5 6.5 5H8v14h8V5h1.5z" />
+     </svg> Keahlian Utama</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+     <div class="bg-white rounded-lg shadow-md p-6">
+      <h3 class="text-xl font-semibold text-gray-800 mb-4">Keahlian Teknis</h3>
+      <div class="flex flex-wrap gap-2"><span class="skill-tag bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">JavaScript</span> <span class="skill-tag bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Python</span> <span class="skill-tag bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">React.js</span> <span class="skill-tag bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">Node.js</span> <span class="skill-tag bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">SQL Database</span> <span class="skill-tag bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Git Version Control</span>
+      </div>
+     </div>
+     <div class="bg-white rounded-lg shadow-md p-6">
+      <h3 class="text-xl font-semibold text-gray-800 mb-4">Keahlian Non-Teknis</h3>
+      <div class="flex flex-wrap gap-2"><span class="skill-tag bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">Pencak Silat Jokotole</span> <span class="skill-tag bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-medium">Komunikasi Tim</span> <span class="skill-tag bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm font-medium">Problem Solving</span> <span class="skill-tag bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm font-medium">Analisis Bisnis</span> <span class="skill-tag bg-lime-100 text-lime-800 px-3 py-1 rounded-full text-sm font-medium">Kepemimpinan</span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <div class="section-divider"></div><!-- Pengalaman Kerja -->
+   <section class="mb-12">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+     <svg class="w-8 h-8 mr-3 text-blue-600" fill="currentColor" viewbox="0 0 24 24"><path d="M20 6h-2.5l-1.5-1.5h-5L9.5 6H7c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h13c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H7V8h2.5l1.5-1.5h5L17.5 8H20v10z" />
+     </svg> Pengalaman Kerja &amp; Proyek</h2>
+    <div class="space-y-6">
+     <div class="experience-item bg-white rounded-lg shadow-md p-6 pl-8">
+      <h3 class="text-xl font-semibold text-gray-800">Senior Software Developer</h3>
+      <p class="text-blue-600 font-medium mb-2">PT. Teknologi Maju | 2021 - Sekarang</p>
+      <ul class="text-gray-700 space-y-1">
+       <li>• Memimpin tim pengembangan aplikasi web dengan teknologi React.js dan Node.js</li>
+       <li>• Meningkatkan performa aplikasi hingga 40% melalui optimisasi kode</li>
+       <li>• Mengimplementasikan sistem CI/CD yang mengurangi waktu deployment 60%</li>
+      </ul>
+     </div>
+     <div class="experience-item bg-white rounded-lg shadow-md p-6 pl-8">
+      <h3 class="text-xl font-semibold text-gray-800">Full Stack Developer</h3>
+      <p class="text-blue-600 font-medium mb-2">CV. Digital Solusi | 2019 - 2021</p>
+      <ul class="text-gray-700 space-y-1">
+       <li>• Mengembangkan sistem manajemen inventory untuk klien retail</li>
+       <li>• Berhasil mengurangi waktu proses bisnis klien hingga 50%</li>
+       <li>• Mengelola database dengan lebih dari 100,000 records</li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   <div class="section-divider"></div><!-- Pendidikan -->
+   <section class="mb-12">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+     <svg class="w-8 h-8 mr-3 text-blue-600" fill="currentColor" viewbox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z" />
+     </svg> Pendidikan</h2>
+    <div class="bg-white rounded-lg shadow-md p-6">
+     <div class="space-y-4">
+      <div>
+       <h3 class="text-xl font-semibold text-gray-800">MTSN 3 IBS PKMKK</h3>
+       <p class="text-blue-600 font-medium">Madrasah Tsanawiyah Negeri 3 | 2018 - 2021</p>
+       <p class="text-gray-700">Program Keahlian Khusus</p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <div class="section-divider"></div><!-- Sertifikat -->
+   <section class="mb-12">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+     <svg class="w-8 h-8 mr-3 text-blue-600" fill="currentColor" viewbox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z" />
+     </svg> Sertifikat &amp; Pelatihan</h2>
+    <div class="bg-white rounded-lg shadow-md p-6">
+     <div class="grid md:grid-cols-1 gap-4">
+      <ul class="space-y-3">
+       <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span> <span class="text-gray-700">Kejuaraan Pencak Silat Jokotole</span></li>
+       <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span> <span class="text-gray-700">Juara 2 Lomba Tenis Meja</span></li>
+       <li class="flex items-center"><span class="w-2 h-2 bg-blue-600 rounded-full mr-3"></span> <span class="text-gray-700">Juara 1 Jokotole Cup Se-Madura</span></li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   <div class="section-divider"></div><!-- Portofolio -->
+   <section class="mb-12">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+     <svg class="w-8 h-8 mr-3 text-blue-600" fill="currentColor" viewbox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+     </svg> Portofolio &amp; Contoh Karya</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+     <div class="bg-white rounded-lg shadow-md p-6">
+      <h3 class="text-xl font-semibold text-gray-800 mb-3">E-Commerce Platform</h3>
+      <p class="text-gray-700 mb-4">Platform e-commerce lengkap dengan sistem pembayaran, manajemen inventory, dan dashboard admin. Dibangun menggunakan React.js, Node.js, dan MongoDB.</p>
+      <div class="flex flex-wrap gap-2"><span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">React.js</span> <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-sm">Node.js</span> <span class="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">MongoDB</span>
+      </div>
+     </div>
+     <div class="bg-white rounded-lg shadow-md p-6">
+      <h3 class="text-xl font-semibold text-gray-800 mb-3">Mobile Banking App</h3>
+      <p class="text-gray-700 mb-4">Aplikasi mobile banking dengan fitur transfer, pembayaran, dan investasi. Menggunakan React Native dengan integrasi API banking yang aman.</p>
+      <div class="flex flex-wrap gap-2"><span class="bg-purple-100 text-purple-800 px-2 py-1 rounded text-sm">React Native</span> <span class="bg-red-100 text-red-800 px-2 py-1 rounded text-sm">REST API</span> <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded text-sm">Security</span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <div class="section-divider"></div><!-- Kontak -->
+   <section class="mb-12">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+     <svg class="w-8 h-8 mr-3 text-blue-600" fill="currentColor" viewbox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+     </svg> Kontak &amp; Media Sosial</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+     <div class="contact-card bg-white rounded-lg shadow-md p-6 text-center">
+      <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="currentColor" viewbox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+      </svg>
+      <h3 class="font-semibold text-gray-800 mb-2">Email</h3>
+      <p id="email-kontak" class="text-gray-600">email@domain.com</p>
+     </div>
+     <div class="contact-card bg-white rounded-lg shadow-md p-6 text-center">
+      <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="currentColor" viewbox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+      </svg>
+      <h3 class="font-semibold text-gray-800 mb-2">Telepon</h3>
+      <p id="nomor-telepon" class="text-gray-600">+62 xxx-xxxx-xxxx</p>
+     </div>
+     <div class="contact-card bg-white rounded-lg shadow-md p-6 text-center">
+      <svg class="w-12 h-12 text-blue-600 mx-auto mb-4" fill="currentColor" viewbox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+      </svg>
+      <h3 class="font-semibold text-gray-800 mb-2">LinkedIn</h3>
+      <p id="linkedin-url" class="text-gray-600 break-all">linkedin.com/in/username</p>
+     </div>
+    </div>
+   </section>
+  </main><!-- Footer -->
+  <footer class="gradient-bg text-white py-8 text-center">
+   <p class="opacity-90">© 2024 Portofolio Profesional. Dibuat dengan dedikasi dan passion.</p>
+  </footer>
+  <script>
+        // Default configuration
+        const defaultConfig = {
+            nama_lengkap: "Ahmad Jibril Alfirdauz",
+            posisi_profesi: "Posisi/Profesi Anda",
+            profil_paragraf1: "Saya adalah seorang profesional berpengalaman dengan latar belakang yang kuat dalam bidang teknologi informasi. Dengan pengalaman lebih dari 5 tahun, saya telah mengembangkan keahlian dalam berbagai aspek pengembangan software dan manajemen proyek.",
+            profil_paragraf2: "Saya memiliki passion yang tinggi dalam menciptakan solusi inovatif dan efisien. Kemampuan analitis yang kuat dan dedikasi terhadap kualitas kerja membuat saya mampu memberikan kontribusi maksimal dalam setiap proyek yang saya tangani.",
+            email_kontak: "email@domain.com",
+            nomor_telepon: "+62 xxx-xxxx-xxxx",
+            linkedin_url: "linkedin.com/in/username",
+            background_color: "#f0f9ff",
+            primary_color: "#0f766e",
+            text_color: "#374151",
+            surface_color: "#ffffff",
+            accent_color: "#d97706",
+            font_family: "Inter",
+            font_size: 16
+        };
+
+        // Update UI based on config
+        async function onConfigChange(config) {
+            // Update text content
+            document.getElementById('nama-lengkap').textContent = config.nama_lengkap || defaultConfig.nama_lengkap;
+            document.getElementById('posisi-profesi').textContent = config.posisi_profesi || defaultConfig.posisi_profesi;
+            document.getElementById('profil-paragraf-1').textContent = config.profil_paragraf1 || defaultConfig.profil_paragraf1;
+            document.getElementById('profil-paragraf-2').textContent = config.profil_paragraf2 || defaultConfig.profil_paragraf2;
+            document.getElementById('email-kontak').textContent = config.email_kontak || defaultConfig.email_kontak;
+            document.getElementById('nomor-telepon').textContent = config.nomor_telepon || defaultConfig.nomor_telepon;
+            document.getElementById('linkedin-url').textContent = config.linkedin_url || defaultConfig.linkedin_url;
+
+            // Update colors
+            const backgroundColor = config.background_color || defaultConfig.background_color;
+            const primaryColor = config.primary_color || defaultConfig.primary_color;
+            const textColor = config.text_color || defaultConfig.text_color;
+            const surfaceColor = config.surface_color || defaultConfig.surface_color;
+            const accentColor = config.accent_color || defaultConfig.accent_color;
+
+            document.body.style.backgroundColor = backgroundColor;
+            document.body.style.color = textColor;
+
+            // Update surface colors (cards, sections)
+            const surfaces = document.querySelectorAll('.bg-white');
+            surfaces.forEach(surface => {
+                surface.style.backgroundColor = surfaceColor;
+            });
+
+            // Update primary color elements
+            const primaryElements = document.querySelectorAll('.text-blue-600, .border-blue-600');
+            primaryElements.forEach(element => {
+                element.style.color = primaryColor;
+                if (element.classList.contains('border-blue-600')) {
+                    element.style.borderColor = primaryColor;
+                }
+            });
+
+            // Update gradient backgrounds
+            const gradientElements = document.querySelectorAll('.gradient-bg');
+            gradientElements.forEach(element => {
+                element.style.background = `linear-gradient(135deg, ${primaryColor} 0%, ${accentColor} 100%)`;
+            });
+
+            // Update font
+            const customFont = config.font_family || defaultConfig.font_family;
+            const baseFontStack = 'system-ui, -apple-system, sans-serif';
+            document.body.style.fontFamily = `${customFont}, ${baseFontStack}`;
+
+            // Update font sizes
+            const baseSize = config.font_size || defaultConfig.font_size;
+            document.body.style.fontSize = `${baseSize}px`;
+            
+            const h1Elements = document.querySelectorAll('h1');
+            h1Elements.forEach(h1 => {
+                h1.style.fontSize = `${baseSize * 2.25}px`;
+            });
+
+            const h2Elements = document.querySelectorAll('h2');
+            h2Elements.forEach(h2 => {
+                h2.style.fontSize = `${baseSize * 1.875}px`;
+            });
+
+            const h3Elements = document.querySelectorAll('h3');
+            h3Elements.forEach(h3 => {
+                h3.style.fontSize = `${baseSize * 1.25}px`;
+            });
+        }
+
+        // Map to capabilities
+        function mapToCapabilities(config) {
+            return {
+                recolorables: [
+                    {
+                        get: () => config.background_color || defaultConfig.background_color,
+                        set: (value) => {
+                            config.background_color = value;
+                            if (window.elementSdk) {
+                                window.elementSdk.setConfig({ background_color: value });
+                            }
+                        }
+                    },
+                    {
+                        get: () => config.surface_color || defaultConfig.surface_color,
+                        set: (value) => {
+                            config.surface_color = value;
+                            if (window.elementSdk) {
+                                window.elementSdk.setConfig({ surface_color: value });
+                            }
+                        }
+                    },
+                    {
+                        get: () => config.text_color || defaultConfig.text_color,
+                        set: (value) => {
+                            config.text_color = value;
+                            if (window.elementSdk) {
+                                window.elementSdk.setConfig({ text_color: value });
+                            }
+                        }
+                    },
+                    {
+                        get: () => config.primary_color || defaultConfig.primary_color,
+                        set: (value) => {
+                            config.primary_color = value;
+                            if (window.elementSdk) {
+                                window.elementSdk.setConfig({ primary_color: value });
+                            }
+                        }
+                    },
+                    {
+                        get: () => config.accent_color || defaultConfig.accent_color,
+                        set: (value) => {
+                            config.accent_color = value;
+                            if (window.elementSdk) {
+                                window.elementSdk.setConfig({ accent_color: value });
+                            }
+                        }
+                    }
+                ],
+                borderables: [],
+                fontEditable: {
+                    get: () => config.font_family || defaultConfig.font_family,
+                    set: (value) => {
+                        config.font_family = value;
+                        if (window.elementSdk) {
+                            window.elementSdk.setConfig({ font_family: value });
+                        }
+                    }
+                },
+                fontSizeable: {
+                    get: () => config.font_size || defaultConfig.font_size,
+                    set: (value) => {
+                        config.font_size = value;
+                        if (window.elementSdk) {
+                            window.elementSdk.setConfig({ font_size: value });
+                        }
+                    }
+                }
+            };
+        }
+
+        // Map to edit panel values
+        function mapToEditPanelValues(config) {
+            return new Map([
+                ["nama_lengkap", config.nama_lengkap || defaultConfig.nama_lengkap],
+                ["posisi_profesi", config.posisi_profesi || defaultConfig.posisi_profesi],
+                ["profil_paragraf1", config.profil_paragraf1 || defaultConfig.profil_paragraf1],
+                ["profil_paragraf2", config.profil_paragraf2 || defaultConfig.profil_paragraf2],
+                ["email_kontak", config.email_kontak || defaultConfig.email_kontak],
+                ["nomor_telepon", config.nomor_telepon || defaultConfig.nomor_telepon],
+                ["linkedin_url", config.linkedin_url || defaultConfig.linkedin_url]
+            ]);
+        }
+
+        // Initialize SDK
+        if (window.elementSdk) {
+            window.elementSdk.init({
+                defaultConfig,
+                onConfigChange,
+                mapToCapabilities,
+                mapToEditPanelValues
+            });
+        }
+
+        // Initial render
+        onConfigChange(defaultConfig);
+    </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'99eb6c2a51066c05',t:'MTc2MzE3NDgzMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
